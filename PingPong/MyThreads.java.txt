@@ -1,0 +1,8 @@
+public class MyThreads extends Thread{
+   public static void main(String[] args) {
+   MyThreads worker = new MyThreads();
+   worker.start();
+}
+   public void run(){
+  }
+}
